@@ -46,7 +46,7 @@ Rust's `async/await` is used to solve just one problem - cross platform main loo
 The problem: on WASM and android its not really easy to organize main loop like this: 
 ```
 fn main() {
-    // do some initilization
+    // do some initialization
     
     // start main loop
     loop {
